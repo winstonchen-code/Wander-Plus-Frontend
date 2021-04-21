@@ -2,18 +2,18 @@ import ImageOne from '../Images/image-1.jpg'
 
 export const SliderData = [
     {
-        title: 'Hello',
+        title: 'Washington D.C., United States',
         location: 'hello',
         path: '/homes',
-        label: 'view home',
+        label: 'View Location',
         image: ImageOne,
         alt: 'House'
     },
     {
-        title: 'Hello',
-        location: 'hello',
-        path: '/homes',
-        label: 'view home',
+        title: 'Paris, France',
+        location: 'helloeadasd',
+        path: '/View Location',
+        label: 'View Location',
         image: ImageOne,
         alt: 'House'
     }
