@@ -131,8 +131,12 @@ const nextSlide = () => {
 }
 
 const prevSlide = () => {
-    setCurrent(current === length - 1 ? 0 : current - 1)
+    setCurrent(current ===  0 ? length - 1 : current - 1)
 }
+
+    if (!Array.isArray(slides) || slides.length <= 0) {
+        return null
+    }
 
     return (
         <HeroSection>
